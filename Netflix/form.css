@@ -1,0 +1,56 @@
+body {
+    font:1rem/1.5em Arial,sans-serif;
+    color:#000;
+    background:url('img/netbg.jpg') no-repeat center center/cover;
+}
+.container {
+    display:grid;
+    background:#fff;
+    align-items: center;
+    justify-content: center;
+    margin:6rem 32rem 4rem 32rem;
+    padding:2rem 2rem 6rem 2rem; 
+    border-radius:5px;
+    width:20%;
+}
+.form div {
+ padding:15px;
+}
+.check {
+    position:absolute;
+    top:70%;
+    left:39.5%;
+    font-size: 0.8rem;
+}
+.pass {
+    font-size:0.8rem;
+    position:absolute;
+    top:70%;
+    right:39%;
+}
+i {
+    text-align:center;
+}
+input[type=text] {
+    border-radius:5px;
+    height:1.5rem;
+    border:none;
+    background:#999;
+}
+.btn {
+margin-left:3rem;
+background:slateblue;
+border:none;
+height:1.5rem;
+border-radius:5px;
+}
+a {
+    text-decoration:none;
+    color:slateblue;
+}
+input[type=checkbox] {
+    padding-left: 1rem;
+}
+.fa-color {
+    color:slateblue
+}
